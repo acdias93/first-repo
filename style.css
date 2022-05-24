@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.menu {
+  background-color: orange;
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+}
+.content {
+  width: 75%;
+  height: 100%;
+  margin-left: 25%;
+  overflow-y: auto;
+}
+
+.content section {
+  width: 50%;
+  height: 50%;
+  padding: 50px;
+}
+
+.menu-entry {
+  display: block;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.profile-photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  border: solid 2px orange}
+
+.contact-link{
+  display: block;
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 25px;
+  font-size: 24px;
+  text-decoration: underline;
+  padding-top: 50px;
+}
+
+.contacts {
+  display: block;
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: bold italic;
+  line-height: 30px;
+}
