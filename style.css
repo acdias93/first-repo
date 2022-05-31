@@ -36,14 +36,20 @@ body {
   font-weight: bold;
   text-decoration: underline;
 }
-
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  margin: 0 auto;
+}
 .profile-photo img {
   width: 200px;
   height: 200px;
   border-radius: 200px;
-  border: solid 2px orange}
+  border: solid 2px orange;
+}
 
-.contact-link{
+.contact-link {
   display: block;
   color: aliceblue;
   font-weight: bold;
@@ -61,4 +67,23 @@ body {
   font-size: 16px;
   font-weight: bold italic;
   line-height: 30px;
+}
+
+.profile-photo:hover img {
+  filter: blur(3.6px);
+}
+
+.text-img {
+  display: none;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  position: absolute;
+  top: 179px;
+  left: 272px;
+  z-index: 1;
+}
+
+.profile-photo:hover .text-img {
+  display: block;
 }
